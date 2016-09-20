@@ -1,0 +1,6 @@
+.build/
+*.sw*
+.DS_Store
+UI-Notify-Cocoa-*/
+UI-Notify-Cocoa-*.tar.gz
+
