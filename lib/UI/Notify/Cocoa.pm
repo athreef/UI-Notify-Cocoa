@@ -3,11 +3,12 @@ use warnings;
 package UI::Notify::Cocoa;
 
 # ABSTRACT: Posts a Cocoa notification
+# VERSION
 
 use Carp;
 
 sub show {
-	my $type = shift;
+    my $type = shift;
     my $message  = pop   || '';
     my $title    = shift || $0;
     my $subtitle = shift;
@@ -37,7 +38,7 @@ UI::Notify::Cocoa - Posts a Cocoa Notification
 
 Displays a Cocoa Notification. Eventually will use XS but for now shells out to osascript. Module is OS X only.
 
-=head1 Git repo
+=head1 GIT REPOSITORY
 
 L<http://github.com/a3f/UI-Notify-Cocoa>
 
