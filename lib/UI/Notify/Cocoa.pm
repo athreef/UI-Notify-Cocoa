@@ -40,7 +40,7 @@ Displays a Cocoa Notification. Eventually will use XS but for now shells out to 
 
 =head1 GIT REPOSITORY
 
-L<http://github.com/a3f/UI-Notify-Cocoa>
+L<http://github.com/athreef/UI-Notify-Cocoa>
 
 =head1 AUTHOR
 
